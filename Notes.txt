@@ -1,0 +1,5 @@
+1. iOS 5以前，viewcontroller可以通过initWithNibName来创建，当使用storyboard时，则要用
+UIStoryboard* storyboard = [UIStoryboard storyboardWithName: @"storyboardname" bundle:nil];
+UIViewController controller = [storyboard instantiateViewControllerWithIdentifier:@"ViewController"]; 
+来创建，其中viewcontroller的identifier是storyboard视图中viewcontroller的"Storyboard ID"属性。
+
