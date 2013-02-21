@@ -3,3 +3,4 @@ UIStoryboard* storyboard = [UIStoryboard storyboardWithName: @"storyboardname" b
 UIViewController controller = [storyboard instantiateViewControllerWithIdentifier:@"ViewController"]; 
 来创建，其中viewcontroller的identifier是storyboard视图中viewcontroller的"Storyboard ID"属性。
 
+2. 上传应用以前，要先添加，现在还差支持网站的URL，应用的图标文件，至少一个截图。
