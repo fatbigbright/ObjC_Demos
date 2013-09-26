@@ -15,3 +15,5 @@ practice for protocol.
 另外，可以让所有这个的视图继承自同一个接口（protocol），再给继随的navigationcontroller类定义一个方法，让这个方法去编历所有视图，同时更新。
 3. ClassDemo:   
   最基本的类定义和对象使用。
+4. 20130926.BlockDemo:   
+  有关Block的Demo。主要参照了苹果公司开发者网站的[这篇文章](https://developer.apple.com/library/mac/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/WorkingwithBlocks/WorkingwithBlocks.html#//apple_ref/doc/uid/TP40011210-CH8-SW1)。
