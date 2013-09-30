@@ -21,3 +21,5 @@ practice for protocol.
   继续昨天的学习。[另一篇参考文章](https://developer.apple.com/library/mac/documentation/Cocoa/Conceptual/Blocks/Articles/bxVariables.html#//apple_ref/doc/uid/TP40007502-CH6-SW3)，先马克一下。
 6. 20130928.ProtocolDemo:   
 重新认识一下Protocol
+7. 20130930.DelegateDemo:   
+用一个UITextField来解释委托模式的基本形式。
