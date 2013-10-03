@@ -27,3 +27,5 @@ practice for protocol.
 国庆快乐！这个国庆的周年数字好敏感啊。今天的Demo是一个观察者模式的实现。参照《iOS开发指南——从零基础到App Store上架》第3.2.2节的例子进行的修改。主要修改了Subject协议的实现部分，把观察者列表改为了私有成员。
 9. 20131002.NotificationDemo:   
 观察者模式的具体应用：通知机制。
+10. 20131003.KVODemo:   
+观察者模式的具体应用：KVO机制。AppStatusWatcher类继承自NSObject，而NSObject实现了NSKeyValueObserving协议。发送addObserver消息给AppDelegate对象，使其监控appStatus属性的值变化。每当变化时，就会发送AppStatusWatcher的ObserveValueForKeyPath消息。
