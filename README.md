@@ -29,3 +29,5 @@ practice for protocol.
 观察者模式的具体应用：通知机制。
 10. 20131003.KVODemo:   
 观察者模式的具体应用：KVO机制。AppStatusWatcher类继承自NSObject，而NSObject实现了NSKeyValueObserving协议。发送addObserver消息给AppDelegate对象，使其监控appStatus属性的值变化。每当变化时，就会发送AppStatusWatcher的ObserveValueForKeyPath消息。
+11. 20131004.LabelButtonDemo:   
+简单的标签按钮演示，如何连接输出口，如何连接Action。
