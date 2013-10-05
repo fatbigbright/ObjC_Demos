@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12F37" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
+    </dependencies>
+    <scenes>
+        <!--Product View Controller-->
+        <scene sceneID="5">
+            <objects>
+                <viewController id="2" customClass="ProductViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3">
+                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <switch opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7Up-ob-Ycx">
+                                <connections>
+                                    <action selector="ValueChanged:" destination="2" eventType="valueChanged" id="wOO-uF-71p"/>
+                                </connections>
+                            </switch>
+                            <switch opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lQC-q3-pgt">
+                                <connections>
+                                    <action selector="ValueChanged:" destination="2" eventType="valueChanged" id="hY2-8n-kz8"/>
+                                </connections>
+                            </switch>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="4SM-7j-deQ">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="114" id="NGM-ZU-2Vq"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="sliderValueChanged:" destination="2" eventType="valueChanged" id="w8v-Ve-G0J"/>
+                                </connections>
+                            </slider>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Slider Value: " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9xC-la-28Q">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AYL-vv-cc8">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bordered" selectedSegmentIndex="1" translatesAutoresizingMaskIntoConstraints="NO" id="ce9-Sj-Trs">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="209" id="TVp-BC-Kbd"/>
+                                </constraints>
+                                <segments>
+                                    <segment title="Left"/>
+                                    <segment title="Both"/>
+                                    <segment title="Right"/>
+                                </segments>
+                                <connections>
+                                    <action selector="segmentValueChanged:" destination="2" eventType="valueChanged" id="2Pv-g7-si8"/>
+                                </connections>
+                            </segmentedControl>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="4SM-7j-deQ" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" type="default" id="DfS-dB-Dtd"/>
+                            <constraint firstItem="ce9-Sj-Trs" firstAttribute="top" secondItem="3" secondAttribute="top" constant="75" id="Ids-WL-wu1"/>
+                            <constraint firstItem="9xC-la-28Q" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="22" id="MQ3-Wg-gaV"/>
+                            <constraint firstItem="AYL-vv-cc8" firstAttribute="trailing" secondItem="4SM-7j-deQ" secondAttribute="trailing" type="default" id="U4I-hE-nmU"/>
+                            <constraint firstItem="AYL-vv-cc8" firstAttribute="baseline" secondItem="9xC-la-28Q" secondAttribute="baseline" type="default" id="VFN-u0-P5I"/>
+                            <constraint firstItem="9xC-la-28Q" firstAttribute="centerX" secondItem="7Up-ob-Ycx" secondAttribute="centerX" type="default" id="Vag-c1-9dn"/>
+                            <constraint firstItem="lQC-q3-pgt" firstAttribute="top" secondItem="7Up-ob-Ycx" secondAttribute="top" type="default" id="XkH-RD-DRU"/>
+                            <constraint firstItem="7Up-ob-Ycx" firstAttribute="top" secondItem="3" secondAttribute="top" constant="138" id="dGL-iK-oHz"/>
+                            <constraint firstItem="4SM-7j-deQ" firstAttribute="top" secondItem="9xC-la-28Q" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="frR-vX-STF"/>
+                            <constraint firstAttribute="trailing" secondItem="lQC-q3-pgt" secondAttribute="trailing" constant="51" id="gXy-a2-04m"/>
+                            <constraint firstItem="ce9-Sj-Trs" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="49" id="sFm-vR-kVP"/>
+                            <constraint firstItem="9xC-la-28Q" firstAttribute="top" secondItem="3" secondAttribute="top" constant="209" id="yEv-9p-Bww"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="LeftSwitch" destination="7Up-ob-Ycx" id="APU-hu-1ZR"/>
+                        <outlet property="RightSwitch" destination="lQC-q3-pgt" id="fgb-Nj-izi"/>
+                        <outlet property="SliderValue" destination="AYL-vv-cc8" id="lYe-Nn-Pka"/>
+                        <outlet property="mySlider" destination="4SM-7j-deQ" id="fQ1-OR-hkJ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <classes>
+        <class className="NSLayoutConstraint" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
+        </class>
+        <class className="ProductViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ProductViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="ValueChanged:"/>
+                <relationship kind="action" name="segmentValueChanged:"/>
+                <relationship kind="action" name="sliderValueChanged:"/>
+                <relationship kind="outlet" name="LeftSwitch" candidateClass="UISwitch"/>
+                <relationship kind="outlet" name="RightSwitch" candidateClass="UISwitch"/>
+                <relationship kind="outlet" name="SliderValue" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="mySlider" candidateClass="UISlider"/>
+            </relationships>
+        </class>
+    </classes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
