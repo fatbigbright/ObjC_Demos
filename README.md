@@ -39,3 +39,5 @@ practice for protocol.
 UIScrollView的基本用法，之一。
 15. 20131008.KeyboardDemo:   
 之前漏掉了UITextField的那节，导致今天看书感觉断片儿了……只得一起补上了。文本框控件需要注意的是两点：一个是如何关闭键盘的讲究，本例只试验了“第一响应者”的方式。还有好几种方式，具体可以参看[这篇博文](http://blog.csdn.net/mikixiyou/article/details/8547615)；二是键盘打开和关闭时的回调，要依靠10月2日的例子中演示的通知中心机制。具体看书吧，[链接在此](http://www.ituring.com.cn/article/34708)。
+16. 20131009.ActivityIndicatorViewProgressViewDemo:   
+进度条和活动指示器的使用。NSTimer的使用方法还需研究。
