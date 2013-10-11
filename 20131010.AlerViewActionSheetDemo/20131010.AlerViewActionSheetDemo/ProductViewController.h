@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface ProductViewController : UIViewController<UIAlertViewDelegate, UIActionSheetDelegate>
+@property (strong, nonatomic) IBOutlet UIToolbar *testToolBar;
 
 @end

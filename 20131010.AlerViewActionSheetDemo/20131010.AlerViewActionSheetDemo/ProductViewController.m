@@ -36,6 +36,7 @@
     multiButtonActionSheet.actionSheetStyle = UIActionSheetStyleBlackOpaque;
     
     [multiButtonActionSheet showInView:self.view];
+    //[multiButtonActionSheet showFromToolbar:self.testToolBar];
 }
 
 #pragma mark - UIAlertView
