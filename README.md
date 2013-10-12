@@ -45,3 +45,5 @@ UIScrollView的基本用法，之一。
 警告与操作表。注意操作表好像有多种出现方式，比如工具栏。但似乎从工具栏中出现也没什么不一样的。还是我的Demo的写法不对？
 18. 20131011.ToolBarNavigationBarDemo:   
 工具栏和导航栏。
+19. 20131012.AutoLayeroutDemo: 
+自动布局和横纵屏。view.transform = CGAffineTransformMakeRotation(弧度)可以对视图进行几何变换。
