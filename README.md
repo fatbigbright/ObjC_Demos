@@ -49,3 +49,5 @@ UIScrollView的基本用法，之一。
 自动布局和横纵屏。view.transform = CGAffineTransformMakeRotation(弧度)可以对视图进行几何变换。
 20. 20131013.DatePicker:   
 日期选择器。
+21. 20131014.NormalPickerDemo: 
+一般的Picker的实例，较昨天的例子略复杂一点。数据源协议和代理协议都用到了。到了表格，会用得更多。楽しみに吧。
