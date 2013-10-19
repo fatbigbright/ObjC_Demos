@@ -59,3 +59,5 @@ UIScrollView的基本用法，之一。
 自定义表视图中的单元格。
 25. 20131018.TableViewSearchBarDemo:  
 为表视图增加搜索栏，注意在Storyboard中添加搜索栏时，要保证把搜索栏拖拽到TableView的紧上边（与上方状态栏之间，搜索栏的控件悬停在附近时出现蓝色亮线的地方）。否则可能出现诡异的搜索栏不显示的问题。
+26. 20131019.TableViewWithSectionsDemo:   
+为表视图增加索引。
