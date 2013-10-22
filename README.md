@@ -65,3 +65,5 @@ UIScrollView的基本用法，之一。
 综合前面两天的Demo，实现一个带索引，并且索引能动态随搜索栏变化的表视图。
 28. 20131021.StaticTableViewDemo:   
 今天没状态。只写个静态表的简单Demo。
+29. 20131022.AddingDeletingLineInTableView:   
+能插入删除记录的表视图。争取周末做个综合的。

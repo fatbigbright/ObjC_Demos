@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12F37" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="5">
+            <objects>
+                <viewController id="2" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3">
+                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="TD3-bt-lC4">
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </tableView>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eW7-f1-oKE">
+                                <items>
+                                    <navigationItem title="Title" id="bAm-S8-eix"/>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="TD3-bt-lC4" firstAttribute="top" secondItem="eW7-f1-oKE" secondAttribute="bottom" type="default" id="5bg-6x-evI"/>
+                            <constraint firstItem="TD3-bt-lC4" firstAttribute="bottom" secondItem="3" secondAttribute="bottom" type="default" id="6UG-Dt-dxc"/>
+                            <constraint firstItem="eW7-f1-oKE" firstAttribute="top" secondItem="3" secondAttribute="top" type="default" id="Hj6-JA-INd"/>
+                            <constraint firstItem="TD3-bt-lC4" firstAttribute="leading" secondItem="3" secondAttribute="leading" type="default" id="L11-bd-SmR"/>
+                            <constraint firstItem="eW7-f1-oKE" firstAttribute="trailing" secondItem="3" secondAttribute="trailing" type="default" id="Pcz-fA-X73"/>
+                            <constraint firstItem="TD3-bt-lC4" firstAttribute="trailing" secondItem="3" secondAttribute="trailing" type="default" id="cUc-Wm-tXh"/>
+                            <constraint firstItem="eW7-f1-oKE" firstAttribute="leading" secondItem="3" secondAttribute="leading" type="default" id="yBg-6a-aEJ"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="myNavigationItem" destination="bAm-S8-eix" id="j6c-kd-SKb"/>
+                        <outlet property="myTableView" destination="TD3-bt-lC4" id="7Bi-im-TCq"/>
+                        <outlet property="myTextField" destination="AYz-m4-erc" id="km2-pe-lTS"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Add..." minimumFontSize="17" id="AYz-m4-erc">
+                    <rect key="frame" x="0.0" y="0.0" width="97" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+            </objects>
+        </scene>
+    </scenes>
+    <classes>
+        <class className="NSLayoutConstraint" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
+        </class>
+        <class className="ViewController" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="myNavigationItem" candidateClass="UINavigationItem"/>
+                <relationship kind="outlet" name="myTableView" candidateClass="UITableView"/>
+                <relationship kind="outlet" name="myTextField" candidateClass="UITextField"/>
+            </relationships>
+        </class>
+    </classes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
