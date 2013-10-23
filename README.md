@@ -67,3 +67,5 @@ UIScrollView的基本用法，之一。
 今天没状态。只写个静态表的简单Demo。
 29. 20131022.AddingDeletingLineInTableView:   
 能插入删除记录的表视图。争取周末做个综合的。
+30. 20131023.MoveTableViewLineDemo:   
+实现移动单元格的功能。
