@@ -69,3 +69,5 @@ UIScrollView的基本用法，之一。
 能插入删除记录的表视图。争取周末做个综合的。
 30. 20131023.MoveTableViewLineDemo:   
 实现移动单元格的功能。
+31. 20131024.RefreshTableViewDemo:   
+实现动态刷新的表视图。这种效果适合数据更新比较频繁的列表。比如微博。
