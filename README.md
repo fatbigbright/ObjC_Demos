@@ -71,3 +71,5 @@ UIScrollView的基本用法，之一。
 实现移动单元格的功能。
 31. 20131024.RefreshTableViewDemo:   
 实现动态刷新的表视图。这种效果适合数据更新比较频繁的列表。比如微博。
+32. 20131025.ModalTransitionDemo:   
+模态视图的创建显示和数据的传递。
