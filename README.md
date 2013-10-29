@@ -75,3 +75,5 @@ UIScrollView的基本用法，之一。
 模态视图的创建显示和数据的传递。
 33. 20131028.PageControlNavigation:  
 断了两天。烧得太难受了。今天是分页视图。一直觉得那几个小点的存在没什么意义，一个滚动视图就搞定不好吗？
+34. 20131029.PageControlNavigationDemo:   
+PageViewController的使用。
