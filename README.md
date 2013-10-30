@@ -77,3 +77,5 @@ UIScrollView的基本用法，之一。
 断了两天。烧得太难受了。今天是分页视图。一直觉得那几个小点的存在没什么意义，一个滚动视图就搞定不好吗？
 34. 20131029.PageControlNavigationDemo:   
 PageViewController的使用。
+35. 20131030.TabDemo:   
+使用Nib文件建立一个TabBar的Demo。注意参考这篇文章： [Loaded nib but the view outlet was not set](http://stackoverflow.com/questions/4763519/loaded-nib-but-the-view-outlet-was-not-set-new-to-interfacebuilder)。
