@@ -79,3 +79,5 @@ UIScrollView的基本用法，之一。
 PageViewController的使用。
 35. 20131030.TabDemo:   
 使用Nib文件建立一个TabBar的Demo。注意参考这篇文章： [Loaded nib but the view outlet was not set](http://stackoverflow.com/questions/4763519/loaded-nib-but-the-view-outlet-was-not-set-new-to-interfacebuilder)。
+36. 20131031.TabStoryBoardDemo:   
+昨天那个Demo的故事板实现版，零代码实现。
