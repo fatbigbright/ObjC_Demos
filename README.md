@@ -81,3 +81,5 @@ PageViewController的使用。
 使用Nib文件建立一个TabBar的Demo。注意参考这篇文章： [Loaded nib but the view outlet was not set](http://stackoverflow.com/questions/4763519/loaded-nib-but-the-view-outlet-was-not-set-new-to-interfacebuilder)。
 36. 20131031.TabStoryBoardDemo:   
 昨天那个Demo的故事板实现版，零代码实现。
+37. 20131101.NavigationDemo:   
+带导航栏的多级表视图。一级有故事板辅助设计，二级为纯代码实现。发现始终不能正常把三级详细视图压入导航栏堆栈。各种不懂。先留着，以后可能就懂了。明天先按书实现一个全故事板的。
