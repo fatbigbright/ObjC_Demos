@@ -87,3 +87,5 @@ PageViewController的使用。
 故事板实现的三级导航。
 39. 20131104.NavigationComboDemo:   
 组合导航模式的故事板实现。
+40. 20131105.PopoverDemo:   
+iPad独有的Popover视图。
