@@ -89,3 +89,5 @@ PageViewController的使用。
 组合导航模式的故事板实现。
 40. 20131105.PopoverDemo:   
 iPad独有的Popover视图。
+41. 20131106.SplitViewDemo:   
+iPad独有的分割视图。
