@@ -91,3 +91,5 @@ PageViewController的使用。
 iPad独有的Popover视图。
 41. 20131106.SplitViewDemo:   
 iPad独有的分割视图。
+42. 20131108.ModalViewDemo:   
+命名错了，应该是20131109，算了不改了。尝试在prepareForSegue中修改destinationViewController的modalPresentationStyle，发现不管用！！
