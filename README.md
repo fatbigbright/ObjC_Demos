@@ -93,3 +93,4 @@ iPad独有的Popover视图。
 iPad独有的分割视图。
 42. 20131108.ModalViewDemo:   
 命名错了，应该是20131109，算了不改了。尝试在prepareForSegue中修改destinationViewController的modalPresentationStyle，发现不管用！！
+20131111光棍节更新：如果segue连接之后对于presentation等都不做设置，即保持默认状态。则发现管用！！
