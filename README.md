@@ -96,3 +96,5 @@ iPad独有的分割视图。
 20131111光棍节更新：如果segue连接之后对于presentation等都不做设置，即保持默认状态。则发现管用！！
 43. 20131111.MasterDetailNIBDemo:  
 XCode4自带的MasterDetail的Universal模板有毛病，ipad版中DetailView的Label没有正常连接到对应类的成员上。
+44. 20131113.MasterDetailStoryboardDemo:   
+故事板版本的MasterDetail例子，同样不需要写什么编码。
