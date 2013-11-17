@@ -98,3 +98,5 @@ iPad独有的分割视图。
 XCode4自带的MasterDetail的Universal模板有毛病，ipad版中DetailView的Label没有正常连接到对应类的成员上。
 44. 20131113.MasterDetailStoryboardDemo:   
 故事板版本的MasterDetail例子，同样不需要写什么编码。
+45. 20131116.TableViewDemo:   
+复习一下带搜索栏的表视图的实现方法。
