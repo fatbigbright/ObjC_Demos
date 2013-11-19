@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12F37" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="63F-Jr-CRn">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="RkJ-Ft-TaO">
+            <objects>
+                <tableViewController id="63F-Jr-CRn" customClass="ViewController" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="AA8-Zl-ASi">
+                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <connections>
+                            <outlet property="dataSource" destination="63F-Jr-CRn" id="FGk-RD-rt9"/>
+                            <outlet property="delegate" destination="63F-Jr-CRn" id="2cA-Eo-Bih"/>
+                        </connections>
+                    </tableView>
+                    <connections>
+                        <outlet property="searchDisplayController" destination="Jod-5g-n33" id="dSX-X9-93L"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OsD-5d-HK7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <searchDisplayController id="Jod-5g-n33">
+                    <connections>
+                        <outlet property="delegate" destination="63F-Jr-CRn" id="avM-eZ-1nq"/>
+                        <outlet property="searchContentsController" destination="63F-Jr-CRn" id="iF4-ZW-DGT"/>
+                        <outlet property="searchResultsDataSource" destination="63F-Jr-CRn" id="fMu-UF-Mcn"/>
+                        <outlet property="searchResultsDelegate" destination="63F-Jr-CRn" id="YAH-GK-frc"/>
+                    </connections>
+                </searchDisplayController>
+            </objects>
+            <point key="canvasLocation" x="121" y="38"/>
+        </scene>
+    </scenes>
+    <classes>
+        <class className="ViewController" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>
+        </class>
+    </classes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

@@ -100,3 +100,5 @@ XCode4自带的MasterDetail的Universal模板有毛病，ipad版中DetailView的
 故事板版本的MasterDetail例子，同样不需要写什么编码。
 45. 20131116.TableViewDemo:   
 复习一下带搜索栏的表视图的实现方法。
+46. 20131119.TableIndexingDemo:   
+复习，带索引的表视图。
