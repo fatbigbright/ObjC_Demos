@@ -102,3 +102,5 @@ XCode4自带的MasterDetail的Universal模板有毛病，ipad版中DetailView的
 复习一下带搜索栏的表视图的实现方法。
 46. 20131119.TableIndexingDemo:   
 复习，带索引的表视图。
+47. 20131125.HanoiTowerDemo:   
+鱼妹妹正在学习递归，先写好个汉诺塔方便回来讨论。

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>750B0DD6-3D8E-4038-97E0-13478A635346</string>
+	<key>IDESourceControlProjectName</key>
+	<string>20131119.TableIndexingDemo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>6A3026C9-BD1E-4A3E-A9D1-0149A95B6A26</key>
+		<string>https://github.com/fatbigbright/ObjC_Demos.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>20131119.TableIndexingDemo/20131119.TableIndexingDemo.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>6A3026C9-BD1E-4A3E-A9D1-0149A95B6A26</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/fatbigbright/ObjC_Demos.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>6A3026C9-BD1E-4A3E-A9D1-0149A95B6A26</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>6A3026C9-BD1E-4A3E-A9D1-0149A95B6A26</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ObjC_Demos</string>
+		</dict>
+	</array>
+</dict>
+</plist>
