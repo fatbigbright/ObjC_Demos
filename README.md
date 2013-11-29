@@ -104,3 +104,7 @@ XCode4自带的MasterDetail的Universal模板有毛病，ipad版中DetailView的
 复习，带索引的表视图。
 47. 20131125.HanoiTowerDemo:   
 鱼妹妹正在学习递归，先写好个汉诺塔方便回来讨论。
+48. 20131129.AppSettingsDemo:   
+    * 书中设置与配置各指什么？设置指退出程序进行的程序设定；配置是指在程序运行中可以进行的设定。
+    * 多值选项中Values和Titles要同时设置，否则无法在系统设置中看到。
+    * 在.plist文件编辑界面中点击右键，选择Propery List Type->iPhone Settings plist可以把手动编辑的设置文件转为标准的settings.plist文件。
