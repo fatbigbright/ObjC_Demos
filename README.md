@@ -109,3 +109,5 @@ XCode4自带的MasterDetail的Universal模板有毛病，ipad版中DetailView的
     * 多值选项中Values和Titles要同时设置，否则无法在系统设置中看到。
     * 在.plist文件编辑界面中点击右键，选择Propery List Type->iPhone Settings plist可以把手动编辑的设置文件转为标准的settings.plist文件。
     * 20131201: 读取部分完成。
+49. 20131202.LocalizationDemo:   
+多语言。在项目设置的Localization中增加新的本地化设置。然后在操作中的系统设置中改变语言设置，即可以切换相应的本地化设置中的相应语言内容。
