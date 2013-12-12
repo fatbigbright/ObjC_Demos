@@ -113,3 +113,7 @@ XCode4自带的MasterDetail的Universal模板有毛病，ipad版中DetailView的
 多语言。在项目设置的Localization中增加新的本地化设置。然后在操作中的系统设置中改变语言设置，即可以切换相应的本地化设置中的相应语言内容。
 50. 20131209.LayerDemo:   
 多工程的工作空间Demo。注意在Product->Scheme菜单项中选择编译成启动工程的那个工程。
+51. 20131212.OCUnitDemo:   
+第一个测试用例，接下来几天的作业可能都在这个目录下提交。
+需要注意的是，在测试时，要像下图这里这样，在测试target的Build Phase的Compile Sources中把要测试的类的实现代码加进来。
+![add_to_compile_sources](./images/20131212-0.png)
