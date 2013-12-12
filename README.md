@@ -116,4 +116,4 @@ XCode4自带的MasterDetail的Universal模板有毛病，ipad版中DetailView的
 51. 20131212.OCUnitDemo:   
 第一个测试用例，接下来几天的作业可能都在这个目录下提交。
 需要注意的是，在测试时，要像下图这里这样，在测试target的Build Phase的Compile Sources中把要测试的类的实现代码加进来。
-![add_to_compile_sources](./images/20131212-0.png)
+![add_to_compile_sources](https://github.com/fatbigbright/ObjC_Demos/blob/master/images/20131212-0.png)
