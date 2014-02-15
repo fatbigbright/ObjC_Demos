@@ -6,7 +6,7 @@
 //  Copyright (c) 2014年 Chang, Liang. All rights reserved.
 //
 
-#import "PlayCardDeck.h"
+#import "PlayingCardDeck.h"
 #import "PlayingCard.h"
 
 @implementation PlayCardDeck

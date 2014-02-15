@@ -52,4 +52,26 @@
     return [rankStrings[self.rank] stringByAppendingString:self.suit];
 }
 
+-(int)match:(NSArray *)otherCards{
+    int score = 0;
+    
+    for (PlayingCard *otherCard in otherCards){
+        if (otherCard.rank == self.rank)
+            score = 1;
+    }
+    
+    return score;
+}
+
+-(instancetype)init
+{
+    self = [super init];
+    if(self){
+        self.chosen = NO;
+        self.matched = NO;
+    }
+    return self;
+}
+
+
 @end

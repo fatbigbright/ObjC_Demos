@@ -7,7 +7,15 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Card.h"
+#import "Deck.h"
 
 @interface CardMachingGame : NSObject
+
+-(instancetype)initWithCardCount:(NSUInteger)count usingDeck: (Deck *)deck;
+-(void)chooseCardAtIndex: (NSUInteger)index;
+-(Card *)cardAtIndex:(NSUInteger)index;
+
+@property (nonatomic, readonly) NSInteger score;
 
 @end
